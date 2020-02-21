@@ -1,7 +1,6 @@
 import discord
 from discord import Webhook,RequestsWebhookAdapter
 import aiohttp
-from discord_webhook import DiscordWebhook
 client = discord.Client()
 
 @client.event
@@ -29,4 +28,4 @@ async def on_message(message):
                 wb.send(message.content)
             except Exception as e:
                 print(message.content)
-client.run("token",bot=False)
+client.run("mfa.vI_ndYBVOI28xT2wDwhrX7U5ITXD5GeuJtzIF11O7B78Km9Sw3es07ByAqOlWnx4tZ8qHhqToFATp21t8185",bot=False)
